@@ -140,9 +140,9 @@ with col1:
     if st.session_state.step > 1:
         if st.button("Previous"):
             st.session_state.step -= 1
-            st.experimental_rerun()
+            st.rerun()
 with col2:
     if st.session_state.step < 4:
         if st.button("Next"):
             st.session_state.step += 1
-            st.experimental_rerun()
+            st.rerun()
