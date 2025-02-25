@@ -1,0 +1,94 @@
+/* Custom styles for the resume builder */
+
+/* Form styling */
+.stTextInput > div > div > input {
+    background-color: #ffffff;
+    color: #0e1117;
+    border-radius: 4px;
+}
+
+.stTextArea > div > div > textarea {
+    background-color: #ffffff;
+    color: #0e1117;
+    border-radius: 4px;
+}
+
+/* Button styling */
+.stButton > button {
+    width: 100%;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 600;
+}
+
+/* Sidebar styling */
+.css-1d391kg {
+    padding: 2rem 1rem;
+}
+
+/* Info boxes */
+.stAlert {
+    background-color: #f0f7ff;
+    border-left-color: #0066cc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Headers */
+h1 {
+    color: #0066cc;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h2 {
+    color: #262730;
+    font-size: 1.8rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+h3 {
+    color: #262730;
+    font-size: 1.4rem;
+    margin: 1rem 0 0.5rem 0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .stButton > button {
+        padding: 0.4rem 0.8rem;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Loading animation */
+.stProgress > div > div > div > div {
+    background-color: #0066cc;
+}
+
+/* Success message */
+.success-message {
+    background-color: #e6ffe6;
+    border-left: 4px solid #00cc00;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+/* Error message */
+.error-message {
+    background-color: #ffe6e6;
+    border-left: 4px solid #cc0000;
+    padding: 1rem;
+    margin: 1rem 0;
+}
