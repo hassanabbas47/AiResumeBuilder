@@ -201,3 +201,6 @@ with col2:
         if st.button("Next"):
             st.session_state.step += 1
             st.rerun()
+
+if __name__ == "__main__":
+    main()
